@@ -1,10 +1,8 @@
-package repositories;
+package com.chriscarney.ppmtool.repositories;
 
-import domain.Project;
+import com.chriscarney.ppmtool.domain.Project;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
-
-import javax.persistence.Id;
 
 @Repository
 public interface ProjectRepository extends CrudRepository<Project, Long> {
